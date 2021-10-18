@@ -1,4 +1,7 @@
 import react, { useState } from "react";
+import { PlusOutlined,MinusOutlined } from '@ant-design/icons';
+import { Button } from 'antd';
+import { Tooltip } from 'antd';
 
 const App = () => {
   const [count, setcount] = useState(0);
@@ -19,8 +22,8 @@ const App = () => {
         <div className="center_div">
           <h1>{count}</h1>
           <div className="btn_div">
-            <button onClick={pluscount}>increm</button>{" "}
-            <button onClick={minuscount}>decrem</button>
+          <Tooltip title="Rise"><Button onClick={pluscount}><PlusOutlined /></Button></Tooltip>{" "}
+            <Button onClick={minuscount}><MinusOutlined /></Button>
           </div>
         </div>
       </div>
