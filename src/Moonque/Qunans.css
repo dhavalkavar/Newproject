@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+  height: 70px;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(140, 185, 140);
+  box-shadow: 5px 5px 25px -5px rgb(0, 0, 0, 0.5);
+}
+.cpm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 142, 146);
+}
+.m_div{
+    align-items: center;
+    width: 25%;
+  height: 30vh;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 5px 5px 25px -5px rgb(0, 0, 0, 0.5);
+}
+.s_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
